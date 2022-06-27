@@ -8,7 +8,7 @@ public class Restaurante{
     this.endereco = endereco;
   }
 
-  public void retornarEndereco(){
+  public String retornarEndereco(){
     return this.endereco;
   } 
 
@@ -16,7 +16,7 @@ public class Restaurante{
     this.nome = nome;
   }
 
-  public void retornarNome(){
+  public String retornarNome(){
     return this.nome;
   }
 
@@ -24,7 +24,7 @@ public class Restaurante{
     this.descricao = descricao;
   }
 
-  public void retornarDescricao(){
+  public String retornarDescricao(){
     return this.descricao;
   }
 
@@ -32,7 +32,7 @@ public class Restaurante{
     this.id = id;
   }
 
-  public void retornarId(){
+  public int retornarId(){
     return this.id;
   }
   

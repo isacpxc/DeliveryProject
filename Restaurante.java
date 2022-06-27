@@ -1,8 +1,12 @@
+import java.util.ArrayList;
+
 public class Restaurante{
   private String endereco;
   private String nome;
   private String descricao;
   private int id;
+  private ArrayList<Cardapio> cardapios;
+  private ArrayList<Pessoas> pessoas;
 
   public void definirEndereco(String endereco){
     this.endereco = endereco;

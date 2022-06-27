@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Cardapio {
   private String produto;
@@ -5,6 +6,7 @@ public class Cardapio {
   private Double valor;
   private String imagem;
   private int id;
+  private ArrayList<Restaurante> restaurantes;
 
   public void definirDescricao(String descricao) {
     this.descricao = descricao;

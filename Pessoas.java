@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.ArrayList;
 
 public class Pessoas{
   private String nome;
@@ -8,6 +9,8 @@ public class Pessoas{
   private String cidade;
   private String password;
   private int id;
+  private ArrayList<Restaurante> restaurantes;
+  private ArrayList<Pedidos> pedidos;
 
   public void definirNome(String nome) {
     this.nome = nome;
